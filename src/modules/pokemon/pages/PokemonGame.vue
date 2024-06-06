@@ -1,8 +1,8 @@
 .<template>
 <section>
     <section v-if="isLoading || randomPokemon.id === null" class="flex flex-col justify-center items-center w-screen h-screen">
-        <h1 >Espere por favor</h1>
-        <h3>Cargando pokemons</h3>
+        <h1 class="text-3xl">Espere por favor</h1>
+        <h3 class="animate-pulse">Cargando pokemons</h3>
     </section>
     <section v-else class="flex flex-col justify-center items-center w-screen h-screen">
         <h1 class="m-5 font-bold from-stone-500">¿ Quién es este pokemon?</h1>
